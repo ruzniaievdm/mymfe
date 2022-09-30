@@ -1,0 +1,29 @@
+.wrapper {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  width: flex-grid(12);
+  flex: 1 0 auto;
+  margin-top: 24px;
+
+  .item {
+    border-radius: 12px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    box-shadow: none;
+    outline: none;
+    padding: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+  }
+}
